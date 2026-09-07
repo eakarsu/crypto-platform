@@ -1,0 +1,9 @@
+{
+  "app": "crypto-platform",
+  "features": 78,
+  "sourceApps": 11,
+  "calculatorEngines": 0,
+  "registryHash": "e0b7f0190ca47e78f83b397440e081b02d0a891756794e303a38b4ce0442c228",
+  "builtAt": "2026-09-07T22:05:36.343Z",
+  "status": "built"
+}

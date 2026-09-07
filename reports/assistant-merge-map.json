@@ -1,0 +1,229 @@
+[
+  {
+    "id": "ai-documents",
+    "title": "Writing, documents & knowledge",
+    "group": "AI assistants",
+    "path": "/assistants/ai-documents",
+    "featureIds": [
+      "notes",
+      "documents",
+      "templates",
+      "analyze-proposal-language",
+      "auto-generate-proposal"
+    ],
+    "ai": true,
+    "representativeId": "notes",
+    "description": "One assistant for 5 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "notes",
+        "title": "Notes",
+        "originalPath": "/features/notes"
+      },
+      {
+        "id": "documents",
+        "title": "Documents",
+        "originalPath": "/features/documents"
+      },
+      {
+        "id": "templates",
+        "title": "Templates",
+        "originalPath": "/features/templates"
+      },
+      {
+        "id": "analyze-proposal-language",
+        "title": "Proposal Language Analyzer",
+        "originalPath": "/features/analyze-proposal-language"
+      },
+      {
+        "id": "auto-generate-proposal",
+        "title": "Auto-Generate Proposal Draft",
+        "originalPath": "/features/auto-generate-proposal"
+      }
+    ]
+  },
+  {
+    "id": "ai-general",
+    "title": "General assistance",
+    "group": "AI assistants",
+    "path": "/assistants/ai-general",
+    "featureIds": [
+      "aave-protocol-v2",
+      "dao-summary",
+      "events-summary",
+      "contract-pattern-recognition",
+      "gas-estimation",
+      "upgrade-path-recommendation",
+      "multichain-support-evmonly-assumed",
+      "enzyme-bot",
+      "enzyme-fork-smart-contracts",
+      "enzyme-fund-create",
+      "enzymeprotocol",
+      "erol-enzyme-aave-fork-protocol-more",
+      "my-aave-next-figma",
+      "smart-contract-work"
+    ],
+    "ai": true,
+    "representativeId": "aave-protocol-v2",
+    "description": "One assistant for 14 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "aave-protocol-v2",
+        "title": "Aave protocol v2 work",
+        "originalPath": "/features/aave-protocol-v2"
+      },
+      {
+        "id": "dao-summary",
+        "title": "DAO Health Snapshot",
+        "originalPath": "/features/dao-summary"
+      },
+      {
+        "id": "events-summary",
+        "title": "Events Summary",
+        "originalPath": "/features/events-summary"
+      },
+      {
+        "id": "contract-pattern-recognition",
+        "title": "Pattern Recognition",
+        "originalPath": "/features/contract-pattern-recognition"
+      },
+      {
+        "id": "gas-estimation",
+        "title": "Gas Estimation",
+        "originalPath": "/features/gas-estimation"
+      },
+      {
+        "id": "upgrade-path-recommendation",
+        "title": "Upgrade Path",
+        "originalPath": "/features/upgrade-path-recommendation"
+      },
+      {
+        "id": "multichain-support-evmonly-assumed",
+        "title": "multichain support evmonly assumed",
+        "originalPath": "/features/multichain-support-evmonly-assumed"
+      },
+      {
+        "id": "enzyme-bot",
+        "title": "Enzyme bot work",
+        "originalPath": "/features/enzyme-bot"
+      },
+      {
+        "id": "enzyme-fork-smart-contracts",
+        "title": "Enzyme fork smart contracts work",
+        "originalPath": "/features/enzyme-fork-smart-contracts"
+      },
+      {
+        "id": "enzyme-fund-create",
+        "title": "Enzyme fund create work",
+        "originalPath": "/features/enzyme-fund-create"
+      },
+      {
+        "id": "enzymeprotocol",
+        "title": "Enzymeprotocol work",
+        "originalPath": "/features/enzymeprotocol"
+      },
+      {
+        "id": "erol-enzyme-aave-fork-protocol-more",
+        "title": "Erol enzyme aave fork protocol more work",
+        "originalPath": "/features/erol-enzyme-aave-fork-protocol-more"
+      },
+      {
+        "id": "my-aave-next-figma",
+        "title": "My aave next figma work",
+        "originalPath": "/features/my-aave-next-figma"
+      },
+      {
+        "id": "smart-contract-work",
+        "title": "Smart contract work work",
+        "originalPath": "/features/smart-contract-work"
+      }
+    ]
+  },
+  {
+    "id": "ai-insights",
+    "title": "Insights & recommendations",
+    "group": "AI assistants",
+    "path": "/assistants/ai-insights",
+    "featureIds": [
+      "fork-analysis",
+      "advanced-analysis",
+      "comparative-contract-analysis",
+      "forkanalysis-compare-to-similar-contracts",
+      "upgradepathrecommendation-proxy-patterns"
+    ],
+    "ai": true,
+    "representativeId": "fork-analysis",
+    "description": "One assistant for 5 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "fork-analysis",
+        "title": "Fork Analysis",
+        "originalPath": "/features/fork-analysis"
+      },
+      {
+        "id": "advanced-analysis",
+        "title": "Advanced analysis",
+        "originalPath": "/features/advanced-analysis"
+      },
+      {
+        "id": "comparative-contract-analysis",
+        "title": "comparative contract analysis",
+        "originalPath": "/features/comparative-contract-analysis"
+      },
+      {
+        "id": "forkanalysis-compare-to-similar-contracts",
+        "title": "forkanalysis compare to similar contracts",
+        "originalPath": "/features/forkanalysis-compare-to-similar-contracts"
+      },
+      {
+        "id": "upgradepathrecommendation-proxy-patterns",
+        "title": "upgradepathrecommendation proxy patterns",
+        "originalPath": "/features/upgradepathrecommendation-proxy-patterns"
+      }
+    ]
+  },
+  {
+    "id": "ai-quality",
+    "title": "Risk, quality & compliance",
+    "group": "AI assistants",
+    "path": "/assistants/ai-quality",
+    "featureIds": [
+      "formal-verification-suggestion",
+      "formalverificationsuggestion-ai"
+    ],
+    "ai": true,
+    "representativeId": "formal-verification-suggestion",
+    "description": "One assistant for 2 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "formal-verification-suggestion",
+        "title": "Formal Verification",
+        "originalPath": "/features/formal-verification-suggestion"
+      },
+      {
+        "id": "formalverificationsuggestion-ai",
+        "title": "formalverificationsuggestion ai",
+        "originalPath": "/features/formalverificationsuggestion-ai"
+      }
+    ]
+  },
+  {
+    "id": "ai-finance",
+    "title": "Finance & reconciliation",
+    "group": "AI assistants",
+    "path": "/assistants/ai-finance",
+    "featureIds": [
+      "gasestimation-deployment-cost-ai"
+    ],
+    "ai": true,
+    "representativeId": "gasestimation-deployment-cost-ai",
+    "description": "One assistant for 1 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "gasestimation-deployment-cost-ai",
+        "title": "gasestimation deployment cost ai",
+        "originalPath": "/features/gasestimation-deployment-cost-ai"
+      }
+    ]
+  }
+]

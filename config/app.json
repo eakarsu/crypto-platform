@@ -1,0 +1,37 @@
+{
+  "id": "crypto-platform",
+  "title": "Crypto & decentralized finance",
+  "buyer": "Digital-asset builders and operators",
+  "sourceCount": 11,
+  "sources": [
+    "aave-protocol-v2",
+    "AIDAOGovernanceAssistant",
+    "AISmartContractAuditor",
+    "bitcoin",
+    "enzyme-bot",
+    "enzyme-fork-smart-contracts",
+    "enzyme-fund-create",
+    "enzymeprotocol",
+    "erol-enzyme-aave-fork-protocol-more",
+    "my-aave-next-figma",
+    "smart-contract-work"
+  ],
+  "status": "proposed build; not implemented",
+  "canonicalFeatureStatus": "Requires feature-level mapping and workflow migration; source route counts are not feature-completion counts.",
+  "port": 46017,
+  "productName": "Crypto Workspace",
+  "runtimeVersion": "1.0.0",
+  "sourceRoots": [
+    "/Volumes/external/projects/aave-protocol-v2",
+    "/Volumes/external/projects/AIDAOGovernanceAssistant",
+    "/Volumes/external/projects/AISmartContractAuditor",
+    "/Volumes/external/projects/bitcoin",
+    "/Volumes/external/projects/enzyme-bot",
+    "/Volumes/external/projects/enzyme-fork-smart-contracts",
+    "/Volumes/external/projects/enzyme-fund-create",
+    "/Volumes/external/projects/enzymeprotocol",
+    "/Volumes/external/projects/erol-enzyme-aave-fork-protocol-more",
+    "/Volumes/external/projects/my-aave-next-figma",
+    "/Volumes/external/projects/smart-contract-work"
+  ]
+}

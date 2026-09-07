@@ -1,0 +1,68 @@
+[
+  {
+    "id": "aave-protocol-v2",
+    "name": "Aave protocol v2",
+    "sourceProject": "aave-protocol-v2",
+    "services": []
+  },
+  {
+    "id": "AIDAOGovernanceAssistant",
+    "name": "Daogovernance assistant",
+    "sourceProject": "AIDAOGovernanceAssistant",
+    "services": []
+  },
+  {
+    "id": "AISmartContractAuditor",
+    "name": "Smart contract auditor",
+    "sourceProject": "AISmartContractAuditor",
+    "services": []
+  },
+  {
+    "id": "bitcoin",
+    "name": "Bitcoin",
+    "sourceProject": "bitcoin",
+    "services": []
+  },
+  {
+    "id": "enzyme-bot",
+    "name": "Enzyme bot",
+    "sourceProject": "enzyme-bot",
+    "services": []
+  },
+  {
+    "id": "enzyme-fork-smart-contracts",
+    "name": "Enzyme fork smart contracts",
+    "sourceProject": "enzyme-fork-smart-contracts",
+    "services": []
+  },
+  {
+    "id": "enzyme-fund-create",
+    "name": "Enzyme fund create",
+    "sourceProject": "enzyme-fund-create",
+    "services": []
+  },
+  {
+    "id": "enzymeprotocol",
+    "name": "Enzymeprotocol",
+    "sourceProject": "enzymeprotocol",
+    "services": []
+  },
+  {
+    "id": "erol-enzyme-aave-fork-protocol-more",
+    "name": "Erol enzyme aave fork protocol more",
+    "sourceProject": "erol-enzyme-aave-fork-protocol-more",
+    "services": []
+  },
+  {
+    "id": "my-aave-next-figma",
+    "name": "My aave next figma",
+    "sourceProject": "my-aave-next-figma",
+    "services": []
+  },
+  {
+    "id": "smart-contract-work",
+    "name": "Smart contract work",
+    "sourceProject": "smart-contract-work",
+    "services": []
+  }
+]

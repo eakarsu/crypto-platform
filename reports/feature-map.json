@@ -1,0 +1,659 @@
+{
+  "mapped": [
+    {
+      "project": "aave-protocol-v2",
+      "sourceKey": "aave-protocol-v2",
+      "source": "/Volumes/external/projects/aave-protocol-v2",
+      "canonical": "aave-protocol-v2",
+      "kind": "source-workflow"
+    },
+    {
+      "project": "AIDAOGovernanceAssistant",
+      "sourceKey": "analyze-proposal-language",
+      "source": "/Volumes/external/projects/AIDAOGovernanceAssistant/frontend/src/pages/AINewToolsPage.js",
+      "canonical": "analyze-proposal-language",
+      "kind": "definition"
+    },
+    {
+      "project": "AIDAOGovernanceAssistant",
+      "sourceKey": "auto-generate-proposal",
+      "source": "/Volumes/external/projects/AIDAOGovernanceAssistant/frontend/src/pages/AINewToolsPage.js",
+      "canonical": "auto-generate-proposal",
+      "kind": "definition"
+    },
+    {
+      "project": "AIDAOGovernanceAssistant",
+      "sourceKey": "dao-summary",
+      "source": "/Volumes/external/projects/AIDAOGovernanceAssistant/frontend/src/pages/AINewToolsPage.js",
+      "canonical": "dao-summary",
+      "kind": "definition"
+    },
+    {
+      "project": "AIDAOGovernanceAssistant",
+      "sourceKey": "events-summary",
+      "source": "/Volumes/external/projects/AIDAOGovernanceAssistant/frontend/src/pages/AINewToolsPage.js",
+      "canonical": "events-summary",
+      "kind": "definition"
+    },
+    {
+      "project": "AISmartContractAuditor",
+      "sourceKey": "contract-pattern-recognition",
+      "source": "/Volumes/external/projects/AISmartContractAuditor/frontend/src/pages/ai/AdvancedAnalysis.tsx",
+      "canonical": "contract-pattern-recognition",
+      "kind": "definition"
+    },
+    {
+      "project": "AISmartContractAuditor",
+      "sourceKey": "gas-estimation",
+      "source": "/Volumes/external/projects/AISmartContractAuditor/frontend/src/pages/ai/AdvancedAnalysis.tsx",
+      "canonical": "gas-estimation",
+      "kind": "definition"
+    },
+    {
+      "project": "AISmartContractAuditor",
+      "sourceKey": "fork-analysis",
+      "source": "/Volumes/external/projects/AISmartContractAuditor/frontend/src/pages/ai/AdvancedAnalysis.tsx",
+      "canonical": "fork-analysis",
+      "kind": "definition"
+    },
+    {
+      "project": "AISmartContractAuditor",
+      "sourceKey": "upgrade-path-recommendation",
+      "source": "/Volumes/external/projects/AISmartContractAuditor/frontend/src/pages/ai/AdvancedAnalysis.tsx",
+      "canonical": "upgrade-path-recommendation",
+      "kind": "definition"
+    },
+    {
+      "project": "AISmartContractAuditor",
+      "sourceKey": "formal-verification-suggestion",
+      "source": "/Volumes/external/projects/AISmartContractAuditor/frontend/src/pages/ai/AdvancedAnalysis.tsx",
+      "canonical": "formal-verification-suggestion",
+      "kind": "definition"
+    },
+    {
+      "project": "AISmartContractAuditor",
+      "sourceKey": "contracts",
+      "source": "/Volumes/external/projects/AISmartContractAuditor",
+      "canonical": "contracts",
+      "kind": "route"
+    },
+    {
+      "project": "AISmartContractAuditor",
+      "sourceKey": "audits",
+      "source": "/Volumes/external/projects/AISmartContractAuditor",
+      "canonical": "audits",
+      "kind": "route"
+    },
+    {
+      "project": "AISmartContractAuditor",
+      "sourceKey": "projects",
+      "source": "/Volumes/external/projects/AISmartContractAuditor",
+      "canonical": "matters",
+      "kind": "route"
+    },
+    {
+      "project": "AISmartContractAuditor",
+      "sourceKey": "compliance-templates",
+      "source": "/Volumes/external/projects/AISmartContractAuditor",
+      "canonical": "compliance-templates",
+      "kind": "route"
+    },
+    {
+      "project": "AISmartContractAuditor",
+      "sourceKey": "audit-history",
+      "source": "/Volumes/external/projects/AISmartContractAuditor",
+      "canonical": "audit-history",
+      "kind": "route"
+    },
+    {
+      "project": "AISmartContractAuditor",
+      "sourceKey": "vulnerability-scan",
+      "source": "/Volumes/external/projects/AISmartContractAuditor",
+      "canonical": "vulnerability-scan",
+      "kind": "route"
+    },
+    {
+      "project": "AISmartContractAuditor",
+      "sourceKey": "gas-optimization",
+      "source": "/Volumes/external/projects/AISmartContractAuditor",
+      "canonical": "gas-optimization",
+      "kind": "route"
+    },
+    {
+      "project": "AISmartContractAuditor",
+      "sourceKey": "compliance-check",
+      "source": "/Volumes/external/projects/AISmartContractAuditor",
+      "canonical": "compliance-check",
+      "kind": "route"
+    },
+    {
+      "project": "AISmartContractAuditor",
+      "sourceKey": "test-generation",
+      "source": "/Volumes/external/projects/AISmartContractAuditor",
+      "canonical": "test-generation",
+      "kind": "route"
+    },
+    {
+      "project": "AISmartContractAuditor",
+      "sourceKey": "code-quality",
+      "source": "/Volumes/external/projects/AISmartContractAuditor",
+      "canonical": "code-quality",
+      "kind": "route"
+    },
+    {
+      "project": "AISmartContractAuditor",
+      "sourceKey": "reentrancy-detection",
+      "source": "/Volumes/external/projects/AISmartContractAuditor",
+      "canonical": "reentrancy-detection",
+      "kind": "route"
+    },
+    {
+      "project": "AISmartContractAuditor",
+      "sourceKey": "advanced-analysis",
+      "source": "/Volumes/external/projects/AISmartContractAuditor",
+      "canonical": "advanced-analysis",
+      "kind": "route"
+    },
+    {
+      "project": "AISmartContractAuditor",
+      "sourceKey": "vulnerabilities",
+      "source": "/Volumes/external/projects/AISmartContractAuditor",
+      "canonical": "vulnerabilities",
+      "kind": "route"
+    },
+    {
+      "project": "AISmartContractAuditor",
+      "sourceKey": "audit-pdf",
+      "source": "/Volumes/external/projects/AISmartContractAuditor",
+      "canonical": "audit-pdf",
+      "kind": "route"
+    },
+    {
+      "project": "AISmartContractAuditor",
+      "sourceKey": "oracle-dependency-risk",
+      "source": "/Volumes/external/projects/AISmartContractAuditor",
+      "canonical": "oracle-dependency-risk",
+      "kind": "route"
+    },
+    {
+      "project": "AISmartContractAuditor",
+      "sourceKey": "cf-continuous-monitoring-of-deployed-contracts",
+      "source": "/Volumes/external/projects/AISmartContractAuditor",
+      "canonical": "continuous-monitoring-of-deployed-contracts",
+      "kind": "route"
+    },
+    {
+      "project": "AISmartContractAuditor",
+      "sourceKey": "cf-formal-verification-integration",
+      "source": "/Volumes/external/projects/AISmartContractAuditor",
+      "canonical": "formal-verification-integration",
+      "kind": "route"
+    },
+    {
+      "project": "AISmartContractAuditor",
+      "sourceKey": "cf-gas-optimization-simulation",
+      "source": "/Volumes/external/projects/AISmartContractAuditor",
+      "canonical": "gas-optimization-simulation",
+      "kind": "route"
+    },
+    {
+      "project": "AISmartContractAuditor",
+      "sourceKey": "cf-comparative-contract-analysis",
+      "source": "/Volumes/external/projects/AISmartContractAuditor",
+      "canonical": "comparative-contract-analysis",
+      "kind": "route"
+    },
+    {
+      "project": "AISmartContractAuditor",
+      "sourceKey": "cf-upgrade-path-advisor",
+      "source": "/Volumes/external/projects/AISmartContractAuditor",
+      "canonical": "upgrade-path-advisor",
+      "kind": "route"
+    },
+    {
+      "project": "AISmartContractAuditor",
+      "sourceKey": "cf-test-generation-with-coverage",
+      "source": "/Volumes/external/projects/AISmartContractAuditor",
+      "canonical": "test-generation-with-coverage",
+      "kind": "route"
+    },
+    {
+      "project": "AISmartContractAuditor",
+      "sourceKey": "gap-no-contractpatternrecognition-vulnerable-pat",
+      "source": "/Volumes/external/projects/AISmartContractAuditor",
+      "canonical": "contractpatternrecognition-vulnerable-pat",
+      "kind": "route"
+    },
+    {
+      "project": "AISmartContractAuditor",
+      "sourceKey": "gap-no-gasestimation-deployment-cost-ai",
+      "source": "/Volumes/external/projects/AISmartContractAuditor",
+      "canonical": "gasestimation-deployment-cost-ai",
+      "kind": "route"
+    },
+    {
+      "project": "AISmartContractAuditor",
+      "sourceKey": "gap-no-forkanalysis-compare-to-similar-contracts",
+      "source": "/Volumes/external/projects/AISmartContractAuditor",
+      "canonical": "forkanalysis-compare-to-similar-contracts",
+      "kind": "route"
+    },
+    {
+      "project": "AISmartContractAuditor",
+      "sourceKey": "gap-no-upgradepathrecommendation-proxy-patterns",
+      "source": "/Volumes/external/projects/AISmartContractAuditor",
+      "canonical": "upgradepathrecommendation-proxy-patterns",
+      "kind": "route"
+    },
+    {
+      "project": "AISmartContractAuditor",
+      "sourceKey": "gap-no-formalverificationsuggestion-ai",
+      "source": "/Volumes/external/projects/AISmartContractAuditor",
+      "canonical": "formalverificationsuggestion-ai",
+      "kind": "route"
+    },
+    {
+      "project": "AISmartContractAuditor",
+      "sourceKey": "gap-limited-contract-source-upload-no-solidity-p",
+      "source": "/Volumes/external/projects/AISmartContractAuditor",
+      "canonical": "limited-contract-source-upload-no-solidity-p",
+      "kind": "route"
+    },
+    {
+      "project": "AISmartContractAuditor",
+      "sourceKey": "gap-no-gas-optimization-simulation-environment",
+      "source": "/Volumes/external/projects/AISmartContractAuditor",
+      "canonical": "gas-optimization-simulation-environment",
+      "kind": "route"
+    },
+    {
+      "project": "AISmartContractAuditor",
+      "sourceKey": "gap-no-test-coverage-reporting",
+      "source": "/Volumes/external/projects/AISmartContractAuditor",
+      "canonical": "test-coverage-reporting",
+      "kind": "route"
+    },
+    {
+      "project": "AISmartContractAuditor",
+      "sourceKey": "gap-no-continuous-monitoring-of-deployed-contrac",
+      "source": "/Volumes/external/projects/AISmartContractAuditor",
+      "canonical": "continuous-monitoring-of-deployed-contrac",
+      "kind": "route"
+    },
+    {
+      "project": "AISmartContractAuditor",
+      "sourceKey": "gap-no-remediation-tracking-vulnerability-closeo",
+      "source": "/Volumes/external/projects/AISmartContractAuditor",
+      "canonical": "remediation-tracking-vulnerability-closeo",
+      "kind": "route"
+    },
+    {
+      "project": "AISmartContractAuditor",
+      "sourceKey": "gap-no-multichain-support-evmonly-assumed",
+      "source": "/Volumes/external/projects/AISmartContractAuditor",
+      "canonical": "multichain-support-evmonly-assumed",
+      "kind": "route"
+    },
+    {
+      "project": "AISmartContractAuditor",
+      "sourceKey": "gap-no-notificationswebhook-for-findings",
+      "source": "/Volumes/external/projects/AISmartContractAuditor",
+      "canonical": "notificationswebhook-for-findings",
+      "kind": "route"
+    },
+    {
+      "project": "bitcoin",
+      "sourceKey": "paper-trading",
+      "source": "/Volumes/external/projects/bitcoin",
+      "canonical": "paper-trading",
+      "kind": "route"
+    },
+    {
+      "project": "bitcoin",
+      "sourceKey": "algotrader",
+      "source": "/Volumes/external/projects/bitcoin",
+      "canonical": "algotrader",
+      "kind": "route"
+    },
+    {
+      "project": "bitcoin",
+      "sourceKey": "signalstream",
+      "source": "/Volumes/external/projects/bitcoin",
+      "canonical": "signalstream",
+      "kind": "route"
+    },
+    {
+      "project": "bitcoin",
+      "sourceKey": "ai-analytics",
+      "source": "/Volumes/external/projects/bitcoin",
+      "canonical": "reports",
+      "kind": "route"
+    },
+    {
+      "project": "bitcoin",
+      "sourceKey": "manage/signals",
+      "source": "/Volumes/external/projects/bitcoin",
+      "canonical": "manage-signals",
+      "kind": "route"
+    },
+    {
+      "project": "bitcoin",
+      "sourceKey": "manage/strategies",
+      "source": "/Volumes/external/projects/bitcoin",
+      "canonical": "manage-strategies",
+      "kind": "route"
+    },
+    {
+      "project": "bitcoin",
+      "sourceKey": "manage/trades",
+      "source": "/Volumes/external/projects/bitcoin",
+      "canonical": "manage-trades",
+      "kind": "route"
+    },
+    {
+      "project": "bitcoin",
+      "sourceKey": "manage/users",
+      "source": "/Volumes/external/projects/bitcoin",
+      "canonical": "manage-users",
+      "kind": "route"
+    },
+    {
+      "project": "bitcoin",
+      "sourceKey": "contact",
+      "source": "/Volumes/external/projects/bitcoin",
+      "canonical": "contacts",
+      "kind": "route"
+    },
+    {
+      "project": "bitcoin",
+      "sourceKey": "careers",
+      "source": "/Volumes/external/projects/bitcoin",
+      "canonical": "careers",
+      "kind": "route"
+    },
+    {
+      "project": "bitcoin",
+      "sourceKey": "support",
+      "source": "/Volumes/external/projects/bitcoin",
+      "canonical": "support",
+      "kind": "route"
+    },
+    {
+      "project": "bitcoin",
+      "sourceKey": "docs",
+      "source": "/Volumes/external/projects/bitcoin",
+      "canonical": "docs",
+      "kind": "route"
+    },
+    {
+      "project": "bitcoin",
+      "sourceKey": "api",
+      "source": "/Volumes/external/projects/bitcoin",
+      "canonical": "api",
+      "kind": "route"
+    },
+    {
+      "project": "bitcoin",
+      "sourceKey": "tutorials",
+      "source": "/Volumes/external/projects/bitcoin",
+      "canonical": "tutorials",
+      "kind": "route"
+    },
+    {
+      "project": "bitcoin",
+      "sourceKey": "blog",
+      "source": "/Volumes/external/projects/bitcoin",
+      "canonical": "blog",
+      "kind": "route"
+    },
+    {
+      "project": "bitcoin",
+      "sourceKey": "cookies",
+      "source": "/Volumes/external/projects/bitcoin",
+      "canonical": "cookies",
+      "kind": "route"
+    },
+    {
+      "project": "enzyme-bot",
+      "sourceKey": "enzyme-bot",
+      "source": "/Volumes/external/projects/enzyme-bot",
+      "canonical": "enzyme-bot",
+      "kind": "source-workflow"
+    },
+    {
+      "project": "enzyme-fork-smart-contracts",
+      "sourceKey": "enzyme-fork-smart-contracts",
+      "source": "/Volumes/external/projects/enzyme-fork-smart-contracts",
+      "canonical": "enzyme-fork-smart-contracts",
+      "kind": "source-workflow"
+    },
+    {
+      "project": "enzyme-fund-create",
+      "sourceKey": "enzyme-fund-create",
+      "source": "/Volumes/external/projects/enzyme-fund-create",
+      "canonical": "enzyme-fund-create",
+      "kind": "source-workflow"
+    },
+    {
+      "project": "enzymeprotocol",
+      "sourceKey": "enzymeprotocol",
+      "source": "/Volumes/external/projects/enzymeprotocol",
+      "canonical": "enzymeprotocol",
+      "kind": "source-workflow"
+    },
+    {
+      "project": "erol-enzyme-aave-fork-protocol-more",
+      "sourceKey": "erol-enzyme-aave-fork-protocol-more",
+      "source": "/Volumes/external/projects/erol-enzyme-aave-fork-protocol-more",
+      "canonical": "erol-enzyme-aave-fork-protocol-more",
+      "kind": "source-workflow"
+    },
+    {
+      "project": "my-aave-next-figma",
+      "sourceKey": "my-aave-next-figma",
+      "source": "/Volumes/external/projects/my-aave-next-figma",
+      "canonical": "my-aave-next-figma",
+      "kind": "source-workflow"
+    },
+    {
+      "project": "smart-contract-work",
+      "sourceKey": "smart-contract-work",
+      "source": "/Volumes/external/projects/smart-contract-work",
+      "canonical": "smart-contract-work",
+      "kind": "source-workflow"
+    }
+  ],
+  "ignored": [
+    {
+      "project": "AISmartContractAuditor",
+      "key": "codex/custom-viz",
+      "source": "/Volumes/external/projects/AISmartContractAuditor",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AISmartContractAuditor",
+      "key": "codex/operations",
+      "source": "/Volumes/external/projects/AISmartContractAuditor",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AISmartContractAuditor",
+      "key": "login",
+      "source": "/Volumes/external/projects/AISmartContractAuditor",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AISmartContractAuditor",
+      "key": "/",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AISmartContractAuditor",
+      "key": "dashboard",
+      "source": "/Volumes/external/projects/AISmartContractAuditor",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AISmartContractAuditor",
+      "key": "contracts/new",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AISmartContractAuditor",
+      "key": "contracts/:id",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AISmartContractAuditor",
+      "key": "contracts/:id/edit",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AISmartContractAuditor",
+      "key": "audits/new",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AISmartContractAuditor",
+      "key": "audits/:id",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AISmartContractAuditor",
+      "key": "audits/:id/edit",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AISmartContractAuditor",
+      "key": "projects/new",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AISmartContractAuditor",
+      "key": "projects/:id",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AISmartContractAuditor",
+      "key": "projects/:id/edit",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AISmartContractAuditor",
+      "key": "compliance-templates/new",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AISmartContractAuditor",
+      "key": "compliance-templates/:id",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AISmartContractAuditor",
+      "key": "compliance-templates/:id/edit",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AISmartContractAuditor",
+      "key": "audit-history/:id",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AISmartContractAuditor",
+      "key": "auto-fix/:vulnerabilityId",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AISmartContractAuditor",
+      "key": "custom-views",
+      "source": "/Volumes/external/projects/AISmartContractAuditor",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "bitcoin",
+      "key": "/",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "bitcoin",
+      "key": "pricing",
+      "source": "/Volumes/external/projects/bitcoin",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "bitcoin",
+      "key": "login",
+      "source": "/Volumes/external/projects/bitcoin",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "bitcoin",
+      "key": "register",
+      "source": "/Volumes/external/projects/bitcoin",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "bitcoin",
+      "key": "profile",
+      "source": "/Volumes/external/projects/bitcoin",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "bitcoin",
+      "key": "about",
+      "source": "/Volumes/external/projects/bitcoin",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "bitcoin",
+      "key": "privacy",
+      "source": "/Volumes/external/projects/bitcoin",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "bitcoin",
+      "key": "terms",
+      "source": "/Volumes/external/projects/bitcoin",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "bitcoin",
+      "key": "*",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    }
+  ],
+  "migrationWarnings": [
+    {
+      "project": "aave-protocol-v2",
+      "reason": "No structured web feature declarations extracted. Source-specific engine/UI migration remains required."
+    },
+    {
+      "project": "enzyme-bot",
+      "reason": "No structured web feature declarations extracted. Source-specific engine/UI migration remains required."
+    },
+    {
+      "project": "enzyme-fork-smart-contracts",
+      "reason": "No structured web feature declarations extracted. Source-specific engine/UI migration remains required."
+    },
+    {
+      "project": "enzyme-fund-create",
+      "reason": "No structured web feature declarations extracted. Source-specific engine/UI migration remains required."
+    },
+    {
+      "project": "enzymeprotocol",
+      "reason": "No structured web feature declarations extracted. Source-specific engine/UI migration remains required."
+    },
+    {
+      "project": "erol-enzyme-aave-fork-protocol-more",
+      "reason": "No structured web feature declarations extracted. Source-specific engine/UI migration remains required."
+    },
+    {
+      "project": "my-aave-next-figma",
+      "reason": "No structured web feature declarations extracted. Source-specific engine/UI migration remains required."
+    },
+    {
+      "project": "smart-contract-work",
+      "reason": "No structured web feature declarations extracted. Source-specific engine/UI migration remains required."
+    }
+  ]
+}

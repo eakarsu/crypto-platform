@@ -1,0 +1,2838 @@
+[
+  {
+    "id": "clients",
+    "title": "Clients & customers",
+    "group": "Workspace",
+    "description": "Organize clients & customers and track progress.",
+    "fields": [
+      {
+        "name": "full_name",
+        "label": "Full name",
+        "type": "text"
+      },
+      {
+        "name": "email",
+        "label": "Email",
+        "type": "text"
+      },
+      {
+        "name": "phone",
+        "label": "Phone",
+        "type": "text"
+      },
+      {
+        "name": "organization",
+        "label": "Organization",
+        "type": "text"
+      },
+      {
+        "name": "address",
+        "label": "Address",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/clients",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "matters",
+    "title": "Work items & projects",
+    "group": "Workspace",
+    "description": "Organize work items & projects and track progress.",
+    "fields": [
+      {
+        "name": "reference",
+        "label": "Reference",
+        "type": "text"
+      },
+      {
+        "name": "jurisdiction",
+        "label": "Jurisdiction",
+        "type": "text"
+      },
+      {
+        "name": "due_date",
+        "label": "Due date",
+        "type": "date"
+      },
+      {
+        "name": "owner",
+        "label": "Owner",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISmartContractAuditor",
+        "path": "projects",
+        "source": "/Volumes/external/projects/AISmartContractAuditor",
+        "kind": "route",
+        "label": "Projects"
+      }
+    ],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/matters",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "contacts",
+    "title": "Contacts & parties",
+    "group": "Workspace",
+    "description": "Organize contacts & parties and track progress.",
+    "fields": [
+      {
+        "name": "full_name",
+        "label": "Full name",
+        "type": "text"
+      },
+      {
+        "name": "email",
+        "label": "Email",
+        "type": "text"
+      },
+      {
+        "name": "phone",
+        "label": "Phone",
+        "type": "text"
+      },
+      {
+        "name": "organization",
+        "label": "Organization",
+        "type": "text"
+      },
+      {
+        "name": "relationship",
+        "label": "Relationship",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "bitcoin",
+        "path": "contact",
+        "source": "/Volumes/external/projects/bitcoin",
+        "kind": "route",
+        "label": "Contact"
+      }
+    ],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/contacts",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "tasks",
+    "title": "Tasks",
+    "group": "Workspace",
+    "description": "Organize tasks and track progress.",
+    "fields": [
+      {
+        "name": "assignee",
+        "label": "Assignee",
+        "type": "text"
+      },
+      {
+        "name": "due_date",
+        "label": "Due date",
+        "type": "date"
+      },
+      {
+        "name": "priority",
+        "label": "Priority",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/tasks",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "calendar",
+    "title": "Calendar",
+    "group": "Workspace",
+    "description": "Organize calendar and track progress.",
+    "fields": [
+      {
+        "name": "event_date",
+        "label": "Event date",
+        "type": "date"
+      },
+      {
+        "name": "location",
+        "label": "Location",
+        "type": "text"
+      },
+      {
+        "name": "attendees",
+        "label": "Attendees",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/calendar",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "deadlines",
+    "title": "Deadlines & reminders",
+    "group": "Workspace",
+    "description": "Organize deadlines & reminders and track progress.",
+    "fields": [
+      {
+        "name": "due_date",
+        "label": "Due date",
+        "type": "date"
+      },
+      {
+        "name": "owner",
+        "label": "Owner",
+        "type": "text"
+      },
+      {
+        "name": "requirements",
+        "label": "Requirements",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/deadlines",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "notes",
+    "title": "Notes",
+    "group": "Workspace",
+    "description": "Organize notes and track progress.",
+    "fields": [
+      {
+        "name": "content",
+        "label": "Content",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/notes",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "documents",
+    "title": "Documents",
+    "group": "Workspace",
+    "description": "Organize documents and track progress.",
+    "fields": [
+      {
+        "name": "document_type",
+        "label": "Document type",
+        "type": "text"
+      },
+      {
+        "name": "content",
+        "label": "Content",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/documents",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "templates",
+    "title": "Templates",
+    "group": "Workspace",
+    "description": "Organize templates and track progress.",
+    "fields": [
+      {
+        "name": "document_type",
+        "label": "Document type",
+        "type": "text"
+      },
+      {
+        "name": "content",
+        "label": "Content",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/templates",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "billing",
+    "title": "Invoices & billing",
+    "group": "Workspace",
+    "description": "Organize invoices & billing and track progress.",
+    "fields": [
+      {
+        "name": "invoice_number",
+        "label": "Invoice number",
+        "type": "text"
+      },
+      {
+        "name": "amount",
+        "label": "Amount",
+        "type": "number"
+      },
+      {
+        "name": "due_date",
+        "label": "Due date",
+        "type": "date"
+      },
+      {
+        "name": "payment_status",
+        "label": "Payment status",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/billing",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "time",
+    "title": "Time tracking",
+    "group": "Workspace",
+    "description": "Organize time tracking and track progress.",
+    "fields": [
+      {
+        "name": "work_date",
+        "label": "Work date",
+        "type": "date"
+      },
+      {
+        "name": "hours",
+        "label": "Hours",
+        "type": "number"
+      },
+      {
+        "name": "rate",
+        "label": "Rate",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/time",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "messages",
+    "title": "Messages & communications",
+    "group": "Workspace",
+    "description": "Organize messages & communications and track progress.",
+    "fields": [
+      {
+        "name": "recipient",
+        "label": "Recipient",
+        "type": "text"
+      },
+      {
+        "name": "subject",
+        "label": "Subject",
+        "type": "text"
+      },
+      {
+        "name": "content",
+        "label": "Content",
+        "type": "textarea"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/messages",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "reports",
+    "title": "Reports & analytics",
+    "group": "Workspace",
+    "description": "Organize reports & analytics and track progress.",
+    "fields": [],
+    "ai": false,
+    "mode": "report",
+    "sources": [
+      {
+        "module": "bitcoin",
+        "path": "ai-analytics",
+        "source": "/Volumes/external/projects/bitcoin",
+        "kind": "route",
+        "label": "Analytics"
+      }
+    ],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/reports",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "audit",
+    "title": "Activity & audit trail",
+    "group": "Workspace",
+    "description": "Organize activity & audit trail and track progress.",
+    "fields": [],
+    "ai": false,
+    "mode": "audit",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/audit",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "connections",
+    "title": "Provider connections",
+    "group": "Workspace",
+    "description": "Prepare provider connections requests and track review. Provider execution is not connected.",
+    "fields": [
+      {
+        "name": "provider_name",
+        "label": "Provider name",
+        "type": "text"
+      },
+      {
+        "name": "endpoint_url",
+        "label": "Endpoint url",
+        "type": "text"
+      },
+      {
+        "name": "purpose",
+        "label": "Purpose",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "integration",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/connections",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "aave-protocol-v2",
+    "title": "Aave protocol v2 work",
+    "group": "Aave protocol v2",
+    "description": "Organize aave protocol v2 work and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "aave-protocol-v2",
+        "path": "aave-protocol-v2",
+        "source": "/Volumes/external/projects/aave-protocol-v2",
+        "kind": "source-workflow",
+        "label": "Aave protocol v2 work"
+      }
+    ],
+    "owner": "aave-protocol-v2",
+    "alternatives": [],
+    "path": "/features/aave-protocol-v2",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "analyze-proposal-language",
+    "title": "Proposal Language Analyzer",
+    "group": "Daogovernance assistant",
+    "description": "Organize proposal language analyzer and prepare the next review.",
+    "fields": [
+      {
+        "name": "proposal_text",
+        "label": "Proposal Text",
+        "type": "textarea"
+      },
+      {
+        "name": "proposal_type",
+        "label": "Proposal Type (optional)",
+        "type": "text"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIDAOGovernanceAssistant",
+        "path": "analyze-proposal-language",
+        "source": "/Volumes/external/projects/AIDAOGovernanceAssistant/frontend/src/pages/AINewToolsPage.js",
+        "kind": "definition",
+        "label": "Proposal Language Analyzer"
+      }
+    ],
+    "owner": "AIDAOGovernanceAssistant",
+    "alternatives": [],
+    "path": "/features/analyze-proposal-language",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "auto-generate-proposal",
+    "title": "Auto-Generate Proposal Draft",
+    "group": "Daogovernance assistant",
+    "description": "Organize auto-generate proposal draft and prepare the next review.",
+    "fields": [
+      {
+        "name": "brief",
+        "label": "Brief",
+        "type": "textarea"
+      },
+      {
+        "name": "dao_name",
+        "label": "DAO Name (optional)",
+        "type": "text"
+      },
+      {
+        "name": "proposal_type",
+        "label": "Proposal Type (optional)",
+        "type": "text"
+      },
+      {
+        "name": "budget",
+        "label": "Budget (optional)",
+        "type": "text"
+      },
+      {
+        "name": "timeline",
+        "label": "Timeline (optional)",
+        "type": "text"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIDAOGovernanceAssistant",
+        "path": "auto-generate-proposal",
+        "source": "/Volumes/external/projects/AIDAOGovernanceAssistant/frontend/src/pages/AINewToolsPage.js",
+        "kind": "definition",
+        "label": "Auto-Generate Proposal Draft"
+      }
+    ],
+    "owner": "AIDAOGovernanceAssistant",
+    "alternatives": [],
+    "path": "/features/auto-generate-proposal",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "dao-summary",
+    "title": "DAO Health Snapshot",
+    "group": "Daogovernance assistant",
+    "description": "Organize dao health snapshot and prepare the next review.",
+    "fields": [
+      {
+        "name": "dao_id",
+        "label": "DAO ID",
+        "type": "text"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIDAOGovernanceAssistant",
+        "path": "dao-summary",
+        "source": "/Volumes/external/projects/AIDAOGovernanceAssistant/frontend/src/pages/AINewToolsPage.js",
+        "kind": "definition",
+        "label": "DAO Health Snapshot"
+      }
+    ],
+    "owner": "AIDAOGovernanceAssistant",
+    "alternatives": [],
+    "path": "/features/dao-summary",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "events-summary",
+    "title": "Events Summary",
+    "group": "Daogovernance assistant",
+    "description": "Organize events summary and prepare the next review.",
+    "fields": [
+      {
+        "name": "dao_name",
+        "label": "DAO Name (optional)",
+        "type": "text"
+      },
+      {
+        "name": "limit",
+        "label": "Limit (optional, max 100)",
+        "type": "text"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIDAOGovernanceAssistant",
+        "path": "events-summary",
+        "source": "/Volumes/external/projects/AIDAOGovernanceAssistant/frontend/src/pages/AINewToolsPage.js",
+        "kind": "definition",
+        "label": "Events Summary"
+      }
+    ],
+    "owner": "AIDAOGovernanceAssistant",
+    "alternatives": [],
+    "path": "/features/events-summary",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "contract-pattern-recognition",
+    "title": "Pattern Recognition",
+    "group": "Smart contract auditor",
+    "description": "Identify safe + risky patterns, anti-patterns, and inheritance/library usage.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISmartContractAuditor",
+        "path": "contract-pattern-recognition",
+        "source": "/Volumes/external/projects/AISmartContractAuditor/frontend/src/pages/ai/AdvancedAnalysis.tsx",
+        "kind": "definition",
+        "label": "Pattern Recognition"
+      }
+    ],
+    "owner": "AISmartContractAuditor",
+    "alternatives": [],
+    "path": "/features/contract-pattern-recognition",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "gas-estimation",
+    "title": "Gas Estimation",
+    "group": "Smart contract auditor",
+    "description": "Deployment + per-function gas estimates with optimization opportunities.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISmartContractAuditor",
+        "path": "gas-estimation",
+        "source": "/Volumes/external/projects/AISmartContractAuditor/frontend/src/pages/ai/AdvancedAnalysis.tsx",
+        "kind": "definition",
+        "label": "Gas Estimation"
+      }
+    ],
+    "owner": "AISmartContractAuditor",
+    "alternatives": [],
+    "path": "/features/gas-estimation",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "fork-analysis",
+    "title": "Fork Analysis",
+    "group": "Smart contract auditor",
+    "description": "Detect fork relationships to known protocols, inherited vulnerabilities, license consistency.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISmartContractAuditor",
+        "path": "fork-analysis",
+        "source": "/Volumes/external/projects/AISmartContractAuditor/frontend/src/pages/ai/AdvancedAnalysis.tsx",
+        "kind": "definition",
+        "label": "Fork Analysis"
+      }
+    ],
+    "owner": "AISmartContractAuditor",
+    "alternatives": [],
+    "path": "/features/fork-analysis",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "upgrade-path-recommendation",
+    "title": "Upgrade Path",
+    "group": "Smart contract auditor",
+    "description": "Recommend safest upgrade pattern (Proxy/UUPS/Beacon/Diamond) and migration steps.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISmartContractAuditor",
+        "path": "upgrade-path-recommendation",
+        "source": "/Volumes/external/projects/AISmartContractAuditor/frontend/src/pages/ai/AdvancedAnalysis.tsx",
+        "kind": "definition",
+        "label": "Upgrade Path"
+      }
+    ],
+    "owner": "AISmartContractAuditor",
+    "alternatives": [],
+    "path": "/features/upgrade-path-recommendation",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "formal-verification-suggestion",
+    "title": "Formal Verification",
+    "group": "Smart contract auditor",
+    "description": "Suggest invariants and tooling (Certora, Foundry, Halmos, KEVM, SMTChecker).",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISmartContractAuditor",
+        "path": "formal-verification-suggestion",
+        "source": "/Volumes/external/projects/AISmartContractAuditor/frontend/src/pages/ai/AdvancedAnalysis.tsx",
+        "kind": "definition",
+        "label": "Formal Verification"
+      }
+    ],
+    "owner": "AISmartContractAuditor",
+    "alternatives": [],
+    "path": "/features/formal-verification-suggestion",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "contracts",
+    "title": "Contracts",
+    "group": "Smart contract auditor",
+    "description": "Organize contracts and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISmartContractAuditor",
+        "path": "contracts",
+        "source": "/Volumes/external/projects/AISmartContractAuditor",
+        "kind": "route",
+        "label": "Contracts"
+      }
+    ],
+    "owner": "AISmartContractAuditor",
+    "alternatives": [],
+    "path": "/features/contracts",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "audits",
+    "title": "Audits",
+    "group": "Smart contract auditor",
+    "description": "Organize audits and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISmartContractAuditor",
+        "path": "audits",
+        "source": "/Volumes/external/projects/AISmartContractAuditor",
+        "kind": "route",
+        "label": "Audits"
+      }
+    ],
+    "owner": "AISmartContractAuditor",
+    "alternatives": [],
+    "path": "/features/audits",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "compliance-templates",
+    "title": "Compliance templates",
+    "group": "Smart contract auditor",
+    "description": "Organize compliance templates and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISmartContractAuditor",
+        "path": "compliance-templates",
+        "source": "/Volumes/external/projects/AISmartContractAuditor",
+        "kind": "route",
+        "label": "Compliance templates"
+      }
+    ],
+    "owner": "AISmartContractAuditor",
+    "alternatives": [],
+    "path": "/features/compliance-templates",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "audit-history",
+    "title": "Audit history",
+    "group": "Smart contract auditor",
+    "description": "Organize audit history and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISmartContractAuditor",
+        "path": "audit-history",
+        "source": "/Volumes/external/projects/AISmartContractAuditor",
+        "kind": "route",
+        "label": "Audit history"
+      }
+    ],
+    "owner": "AISmartContractAuditor",
+    "alternatives": [],
+    "path": "/features/audit-history",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "vulnerability-scan",
+    "title": "Vulnerability scan",
+    "group": "Smart contract auditor",
+    "description": "Organize vulnerability scan and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISmartContractAuditor",
+        "path": "vulnerability-scan",
+        "source": "/Volumes/external/projects/AISmartContractAuditor",
+        "kind": "route",
+        "label": "Vulnerability scan"
+      }
+    ],
+    "owner": "AISmartContractAuditor",
+    "alternatives": [],
+    "path": "/features/vulnerability-scan",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "gas-optimization",
+    "title": "Gas optimization",
+    "group": "Smart contract auditor",
+    "description": "Organize gas optimization and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISmartContractAuditor",
+        "path": "gas-optimization",
+        "source": "/Volumes/external/projects/AISmartContractAuditor",
+        "kind": "route",
+        "label": "Gas optimization"
+      }
+    ],
+    "owner": "AISmartContractAuditor",
+    "alternatives": [],
+    "path": "/features/gas-optimization",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "compliance-check",
+    "title": "Compliance check",
+    "group": "Smart contract auditor",
+    "description": "Organize compliance check and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISmartContractAuditor",
+        "path": "compliance-check",
+        "source": "/Volumes/external/projects/AISmartContractAuditor",
+        "kind": "route",
+        "label": "Compliance check"
+      }
+    ],
+    "owner": "AISmartContractAuditor",
+    "alternatives": [],
+    "path": "/features/compliance-check",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "test-generation",
+    "title": "Test generation",
+    "group": "Smart contract auditor",
+    "description": "Organize test generation and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISmartContractAuditor",
+        "path": "test-generation",
+        "source": "/Volumes/external/projects/AISmartContractAuditor",
+        "kind": "route",
+        "label": "Test generation"
+      }
+    ],
+    "owner": "AISmartContractAuditor",
+    "alternatives": [],
+    "path": "/features/test-generation",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "code-quality",
+    "title": "Code quality",
+    "group": "Smart contract auditor",
+    "description": "Organize code quality and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISmartContractAuditor",
+        "path": "code-quality",
+        "source": "/Volumes/external/projects/AISmartContractAuditor",
+        "kind": "route",
+        "label": "Code quality"
+      }
+    ],
+    "owner": "AISmartContractAuditor",
+    "alternatives": [],
+    "path": "/features/code-quality",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "reentrancy-detection",
+    "title": "Reentrancy detection",
+    "group": "Smart contract auditor",
+    "description": "Organize reentrancy detection and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISmartContractAuditor",
+        "path": "reentrancy-detection",
+        "source": "/Volumes/external/projects/AISmartContractAuditor",
+        "kind": "route",
+        "label": "Reentrancy detection"
+      }
+    ],
+    "owner": "AISmartContractAuditor",
+    "alternatives": [],
+    "path": "/features/reentrancy-detection",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "advanced-analysis",
+    "title": "Advanced analysis",
+    "group": "Smart contract auditor",
+    "description": "Organize advanced analysis and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISmartContractAuditor",
+        "path": "advanced-analysis",
+        "source": "/Volumes/external/projects/AISmartContractAuditor",
+        "kind": "route",
+        "label": "Advanced analysis"
+      }
+    ],
+    "owner": "AISmartContractAuditor",
+    "alternatives": [],
+    "path": "/features/advanced-analysis",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "vulnerabilities",
+    "title": "Vulnerabilities",
+    "group": "Smart contract auditor",
+    "description": "Organize vulnerabilities and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISmartContractAuditor",
+        "path": "vulnerabilities",
+        "source": "/Volumes/external/projects/AISmartContractAuditor",
+        "kind": "route",
+        "label": "Vulnerabilities"
+      }
+    ],
+    "owner": "AISmartContractAuditor",
+    "alternatives": [],
+    "path": "/features/vulnerabilities",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "audit-pdf",
+    "title": "Audit pdf",
+    "group": "Smart contract auditor",
+    "description": "Organize audit pdf and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISmartContractAuditor",
+        "path": "audit-pdf",
+        "source": "/Volumes/external/projects/AISmartContractAuditor",
+        "kind": "route",
+        "label": "Audit pdf"
+      }
+    ],
+    "owner": "AISmartContractAuditor",
+    "alternatives": [],
+    "path": "/features/audit-pdf",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "oracle-dependency-risk",
+    "title": "Oracle dependency risk",
+    "group": "Smart contract auditor",
+    "description": "Organize oracle dependency risk and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISmartContractAuditor",
+        "path": "oracle-dependency-risk",
+        "source": "/Volumes/external/projects/AISmartContractAuditor",
+        "kind": "route",
+        "label": "Oracle dependency risk"
+      }
+    ],
+    "owner": "AISmartContractAuditor",
+    "alternatives": [],
+    "path": "/features/oracle-dependency-risk",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "continuous-monitoring-of-deployed-contracts",
+    "title": "continuous monitoring of deployed contracts",
+    "group": "Smart contract auditor",
+    "description": "Organize continuous monitoring of deployed contracts and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISmartContractAuditor",
+        "path": "cf-continuous-monitoring-of-deployed-contracts",
+        "source": "/Volumes/external/projects/AISmartContractAuditor",
+        "kind": "route",
+        "label": "continuous monitoring of deployed contracts"
+      }
+    ],
+    "owner": "AISmartContractAuditor",
+    "alternatives": [],
+    "path": "/features/continuous-monitoring-of-deployed-contracts",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "formal-verification-integration",
+    "title": "formal verification integration",
+    "group": "Smart contract auditor",
+    "description": "Prepare formal verification integration requests and track review. Provider execution is not connected.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "integration",
+    "sources": [
+      {
+        "module": "AISmartContractAuditor",
+        "path": "cf-formal-verification-integration",
+        "source": "/Volumes/external/projects/AISmartContractAuditor",
+        "kind": "route",
+        "label": "formal verification integration"
+      }
+    ],
+    "owner": "AISmartContractAuditor",
+    "alternatives": [],
+    "path": "/features/formal-verification-integration",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "gas-optimization-simulation",
+    "title": "gas optimization simulation",
+    "group": "Smart contract auditor",
+    "description": "Organize gas optimization simulation and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISmartContractAuditor",
+        "path": "cf-gas-optimization-simulation",
+        "source": "/Volumes/external/projects/AISmartContractAuditor",
+        "kind": "route",
+        "label": "gas optimization simulation"
+      }
+    ],
+    "owner": "AISmartContractAuditor",
+    "alternatives": [],
+    "path": "/features/gas-optimization-simulation",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "comparative-contract-analysis",
+    "title": "comparative contract analysis",
+    "group": "Smart contract auditor",
+    "description": "Organize comparative contract analysis and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISmartContractAuditor",
+        "path": "cf-comparative-contract-analysis",
+        "source": "/Volumes/external/projects/AISmartContractAuditor",
+        "kind": "route",
+        "label": "comparative contract analysis"
+      }
+    ],
+    "owner": "AISmartContractAuditor",
+    "alternatives": [],
+    "path": "/features/comparative-contract-analysis",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "upgrade-path-advisor",
+    "title": "upgrade path advisor",
+    "group": "Smart contract auditor",
+    "description": "Organize upgrade path advisor and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISmartContractAuditor",
+        "path": "cf-upgrade-path-advisor",
+        "source": "/Volumes/external/projects/AISmartContractAuditor",
+        "kind": "route",
+        "label": "upgrade path advisor"
+      }
+    ],
+    "owner": "AISmartContractAuditor",
+    "alternatives": [],
+    "path": "/features/upgrade-path-advisor",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "test-generation-with-coverage",
+    "title": "test generation with coverage",
+    "group": "Smart contract auditor",
+    "description": "Organize test generation with coverage and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISmartContractAuditor",
+        "path": "cf-test-generation-with-coverage",
+        "source": "/Volumes/external/projects/AISmartContractAuditor",
+        "kind": "route",
+        "label": "test generation with coverage"
+      }
+    ],
+    "owner": "AISmartContractAuditor",
+    "alternatives": [],
+    "path": "/features/test-generation-with-coverage",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "contractpatternrecognition-vulnerable-pat",
+    "title": "contractpatternrecognition vulnerable pat",
+    "group": "Smart contract auditor",
+    "description": "Organize contractpatternrecognition vulnerable pat and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISmartContractAuditor",
+        "path": "gap-no-contractpatternrecognition-vulnerable-pat",
+        "source": "/Volumes/external/projects/AISmartContractAuditor",
+        "kind": "route",
+        "label": "contractpatternrecognition vulnerable pat"
+      }
+    ],
+    "owner": "AISmartContractAuditor",
+    "alternatives": [],
+    "path": "/features/contractpatternrecognition-vulnerable-pat",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "gasestimation-deployment-cost-ai",
+    "title": "gasestimation deployment cost ai",
+    "group": "Smart contract auditor",
+    "description": "Organize gasestimation deployment cost ai and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISmartContractAuditor",
+        "path": "gap-no-gasestimation-deployment-cost-ai",
+        "source": "/Volumes/external/projects/AISmartContractAuditor",
+        "kind": "route",
+        "label": "gasestimation deployment cost ai"
+      }
+    ],
+    "owner": "AISmartContractAuditor",
+    "alternatives": [],
+    "path": "/features/gasestimation-deployment-cost-ai",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "forkanalysis-compare-to-similar-contracts",
+    "title": "forkanalysis compare to similar contracts",
+    "group": "Smart contract auditor",
+    "description": "Organize forkanalysis compare to similar contracts and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISmartContractAuditor",
+        "path": "gap-no-forkanalysis-compare-to-similar-contracts",
+        "source": "/Volumes/external/projects/AISmartContractAuditor",
+        "kind": "route",
+        "label": "forkanalysis compare to similar contracts"
+      }
+    ],
+    "owner": "AISmartContractAuditor",
+    "alternatives": [],
+    "path": "/features/forkanalysis-compare-to-similar-contracts",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "upgradepathrecommendation-proxy-patterns",
+    "title": "upgradepathrecommendation proxy patterns",
+    "group": "Smart contract auditor",
+    "description": "Organize upgradepathrecommendation proxy patterns and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISmartContractAuditor",
+        "path": "gap-no-upgradepathrecommendation-proxy-patterns",
+        "source": "/Volumes/external/projects/AISmartContractAuditor",
+        "kind": "route",
+        "label": "upgradepathrecommendation proxy patterns"
+      }
+    ],
+    "owner": "AISmartContractAuditor",
+    "alternatives": [],
+    "path": "/features/upgradepathrecommendation-proxy-patterns",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "formalverificationsuggestion-ai",
+    "title": "formalverificationsuggestion ai",
+    "group": "Smart contract auditor",
+    "description": "Organize formalverificationsuggestion ai and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISmartContractAuditor",
+        "path": "gap-no-formalverificationsuggestion-ai",
+        "source": "/Volumes/external/projects/AISmartContractAuditor",
+        "kind": "route",
+        "label": "formalverificationsuggestion ai"
+      }
+    ],
+    "owner": "AISmartContractAuditor",
+    "alternatives": [],
+    "path": "/features/formalverificationsuggestion-ai",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "limited-contract-source-upload-no-solidity-p",
+    "title": "limited contract source upload no solidity p",
+    "group": "Smart contract auditor",
+    "description": "Organize limited contract source upload no solidity p and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISmartContractAuditor",
+        "path": "gap-limited-contract-source-upload-no-solidity-p",
+        "source": "/Volumes/external/projects/AISmartContractAuditor",
+        "kind": "route",
+        "label": "limited contract source upload no solidity p"
+      }
+    ],
+    "owner": "AISmartContractAuditor",
+    "alternatives": [],
+    "path": "/features/limited-contract-source-upload-no-solidity-p",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "gas-optimization-simulation-environment",
+    "title": "gas optimization simulation environment",
+    "group": "Smart contract auditor",
+    "description": "Organize gas optimization simulation environment and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISmartContractAuditor",
+        "path": "gap-no-gas-optimization-simulation-environment",
+        "source": "/Volumes/external/projects/AISmartContractAuditor",
+        "kind": "route",
+        "label": "gas optimization simulation environment"
+      }
+    ],
+    "owner": "AISmartContractAuditor",
+    "alternatives": [],
+    "path": "/features/gas-optimization-simulation-environment",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "test-coverage-reporting",
+    "title": "test coverage reporting",
+    "group": "Smart contract auditor",
+    "description": "Organize test coverage reporting and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISmartContractAuditor",
+        "path": "gap-no-test-coverage-reporting",
+        "source": "/Volumes/external/projects/AISmartContractAuditor",
+        "kind": "route",
+        "label": "test coverage reporting"
+      }
+    ],
+    "owner": "AISmartContractAuditor",
+    "alternatives": [],
+    "path": "/features/test-coverage-reporting",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "continuous-monitoring-of-deployed-contrac",
+    "title": "continuous monitoring of deployed contrac",
+    "group": "Smart contract auditor",
+    "description": "Organize continuous monitoring of deployed contrac and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISmartContractAuditor",
+        "path": "gap-no-continuous-monitoring-of-deployed-contrac",
+        "source": "/Volumes/external/projects/AISmartContractAuditor",
+        "kind": "route",
+        "label": "continuous monitoring of deployed contrac"
+      }
+    ],
+    "owner": "AISmartContractAuditor",
+    "alternatives": [],
+    "path": "/features/continuous-monitoring-of-deployed-contrac",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "remediation-tracking-vulnerability-closeo",
+    "title": "remediation tracking vulnerability closeo",
+    "group": "Smart contract auditor",
+    "description": "Organize remediation tracking vulnerability closeo and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISmartContractAuditor",
+        "path": "gap-no-remediation-tracking-vulnerability-closeo",
+        "source": "/Volumes/external/projects/AISmartContractAuditor",
+        "kind": "route",
+        "label": "remediation tracking vulnerability closeo"
+      }
+    ],
+    "owner": "AISmartContractAuditor",
+    "alternatives": [],
+    "path": "/features/remediation-tracking-vulnerability-closeo",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "multichain-support-evmonly-assumed",
+    "title": "multichain support evmonly assumed",
+    "group": "Smart contract auditor",
+    "description": "Organize multichain support evmonly assumed and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISmartContractAuditor",
+        "path": "gap-no-multichain-support-evmonly-assumed",
+        "source": "/Volumes/external/projects/AISmartContractAuditor",
+        "kind": "route",
+        "label": "multichain support evmonly assumed"
+      }
+    ],
+    "owner": "AISmartContractAuditor",
+    "alternatives": [],
+    "path": "/features/multichain-support-evmonly-assumed",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "notificationswebhook-for-findings",
+    "title": "notificationswebhook for findings",
+    "group": "Smart contract auditor",
+    "description": "Prepare notificationswebhook for findings requests and track review. Provider execution is not connected.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "integration",
+    "sources": [
+      {
+        "module": "AISmartContractAuditor",
+        "path": "gap-no-notificationswebhook-for-findings",
+        "source": "/Volumes/external/projects/AISmartContractAuditor",
+        "kind": "route",
+        "label": "notificationswebhook for findings"
+      }
+    ],
+    "owner": "AISmartContractAuditor",
+    "alternatives": [],
+    "path": "/features/notificationswebhook-for-findings",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "paper-trading",
+    "title": "Paper trading",
+    "group": "Bitcoin",
+    "description": "Organize paper trading and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "bitcoin",
+        "path": "paper-trading",
+        "source": "/Volumes/external/projects/bitcoin",
+        "kind": "route",
+        "label": "Paper trading"
+      }
+    ],
+    "owner": "bitcoin",
+    "alternatives": [],
+    "path": "/features/paper-trading",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "algotrader",
+    "title": "Algotrader",
+    "group": "Bitcoin",
+    "description": "Organize algotrader and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "bitcoin",
+        "path": "algotrader",
+        "source": "/Volumes/external/projects/bitcoin",
+        "kind": "route",
+        "label": "Algotrader"
+      }
+    ],
+    "owner": "bitcoin",
+    "alternatives": [],
+    "path": "/features/algotrader",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "signalstream",
+    "title": "Signalstream",
+    "group": "Bitcoin",
+    "description": "Organize signalstream and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "bitcoin",
+        "path": "signalstream",
+        "source": "/Volumes/external/projects/bitcoin",
+        "kind": "route",
+        "label": "Signalstream"
+      }
+    ],
+    "owner": "bitcoin",
+    "alternatives": [],
+    "path": "/features/signalstream",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "manage-signals",
+    "title": "Signals",
+    "group": "Bitcoin",
+    "description": "Organize signals and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "bitcoin",
+        "path": "manage/signals",
+        "source": "/Volumes/external/projects/bitcoin",
+        "kind": "route",
+        "label": "Signals"
+      }
+    ],
+    "owner": "bitcoin",
+    "alternatives": [],
+    "path": "/features/manage-signals",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "manage-strategies",
+    "title": "Strategies",
+    "group": "Bitcoin",
+    "description": "Organize strategies and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "bitcoin",
+        "path": "manage/strategies",
+        "source": "/Volumes/external/projects/bitcoin",
+        "kind": "route",
+        "label": "Strategies"
+      }
+    ],
+    "owner": "bitcoin",
+    "alternatives": [],
+    "path": "/features/manage-strategies",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "manage-trades",
+    "title": "Trades",
+    "group": "Bitcoin",
+    "description": "Organize trades and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "bitcoin",
+        "path": "manage/trades",
+        "source": "/Volumes/external/projects/bitcoin",
+        "kind": "route",
+        "label": "Trades"
+      }
+    ],
+    "owner": "bitcoin",
+    "alternatives": [],
+    "path": "/features/manage-trades",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "manage-users",
+    "title": "Users",
+    "group": "Bitcoin",
+    "description": "Organize users and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "bitcoin",
+        "path": "manage/users",
+        "source": "/Volumes/external/projects/bitcoin",
+        "kind": "route",
+        "label": "Users"
+      }
+    ],
+    "owner": "bitcoin",
+    "alternatives": [],
+    "path": "/features/manage-users",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "careers",
+    "title": "Careers",
+    "group": "Bitcoin",
+    "description": "Organize careers and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "bitcoin",
+        "path": "careers",
+        "source": "/Volumes/external/projects/bitcoin",
+        "kind": "route",
+        "label": "Careers"
+      }
+    ],
+    "owner": "bitcoin",
+    "alternatives": [],
+    "path": "/features/careers",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "support",
+    "title": "Support",
+    "group": "Bitcoin",
+    "description": "Organize support and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "bitcoin",
+        "path": "support",
+        "source": "/Volumes/external/projects/bitcoin",
+        "kind": "route",
+        "label": "Support"
+      }
+    ],
+    "owner": "bitcoin",
+    "alternatives": [],
+    "path": "/features/support",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "docs",
+    "title": "Docs",
+    "group": "Bitcoin",
+    "description": "Organize docs and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "bitcoin",
+        "path": "docs",
+        "source": "/Volumes/external/projects/bitcoin",
+        "kind": "route",
+        "label": "Docs"
+      }
+    ],
+    "owner": "bitcoin",
+    "alternatives": [],
+    "path": "/features/docs",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "api",
+    "title": "Api",
+    "group": "Bitcoin",
+    "description": "Organize api and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "bitcoin",
+        "path": "api",
+        "source": "/Volumes/external/projects/bitcoin",
+        "kind": "route",
+        "label": "Api"
+      }
+    ],
+    "owner": "bitcoin",
+    "alternatives": [],
+    "path": "/features/api",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "tutorials",
+    "title": "Tutorials",
+    "group": "Bitcoin",
+    "description": "Organize tutorials and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "bitcoin",
+        "path": "tutorials",
+        "source": "/Volumes/external/projects/bitcoin",
+        "kind": "route",
+        "label": "Tutorials"
+      }
+    ],
+    "owner": "bitcoin",
+    "alternatives": [],
+    "path": "/features/tutorials",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "blog",
+    "title": "Blog",
+    "group": "Bitcoin",
+    "description": "Organize blog and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "bitcoin",
+        "path": "blog",
+        "source": "/Volumes/external/projects/bitcoin",
+        "kind": "route",
+        "label": "Blog"
+      }
+    ],
+    "owner": "bitcoin",
+    "alternatives": [],
+    "path": "/features/blog",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "cookies",
+    "title": "Cookies",
+    "group": "Bitcoin",
+    "description": "Organize cookies and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "bitcoin",
+        "path": "cookies",
+        "source": "/Volumes/external/projects/bitcoin",
+        "kind": "route",
+        "label": "Cookies"
+      }
+    ],
+    "owner": "bitcoin",
+    "alternatives": [],
+    "path": "/features/cookies",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "enzyme-bot",
+    "title": "Enzyme bot work",
+    "group": "Enzyme bot",
+    "description": "Organize enzyme bot work and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "enzyme-bot",
+        "path": "enzyme-bot",
+        "source": "/Volumes/external/projects/enzyme-bot",
+        "kind": "source-workflow",
+        "label": "Enzyme bot work"
+      }
+    ],
+    "owner": "enzyme-bot",
+    "alternatives": [],
+    "path": "/features/enzyme-bot",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "enzyme-fork-smart-contracts",
+    "title": "Enzyme fork smart contracts work",
+    "group": "Enzyme fork smart contracts",
+    "description": "Organize enzyme fork smart contracts work and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "enzyme-fork-smart-contracts",
+        "path": "enzyme-fork-smart-contracts",
+        "source": "/Volumes/external/projects/enzyme-fork-smart-contracts",
+        "kind": "source-workflow",
+        "label": "Enzyme fork smart contracts work"
+      }
+    ],
+    "owner": "enzyme-fork-smart-contracts",
+    "alternatives": [],
+    "path": "/features/enzyme-fork-smart-contracts",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "enzyme-fund-create",
+    "title": "Enzyme fund create work",
+    "group": "Enzyme fund create",
+    "description": "Organize enzyme fund create work and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "enzyme-fund-create",
+        "path": "enzyme-fund-create",
+        "source": "/Volumes/external/projects/enzyme-fund-create",
+        "kind": "source-workflow",
+        "label": "Enzyme fund create work"
+      }
+    ],
+    "owner": "enzyme-fund-create",
+    "alternatives": [],
+    "path": "/features/enzyme-fund-create",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "enzymeprotocol",
+    "title": "Enzymeprotocol work",
+    "group": "Enzymeprotocol",
+    "description": "Organize enzymeprotocol work and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "enzymeprotocol",
+        "path": "enzymeprotocol",
+        "source": "/Volumes/external/projects/enzymeprotocol",
+        "kind": "source-workflow",
+        "label": "Enzymeprotocol work"
+      }
+    ],
+    "owner": "enzymeprotocol",
+    "alternatives": [],
+    "path": "/features/enzymeprotocol",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "erol-enzyme-aave-fork-protocol-more",
+    "title": "Erol enzyme aave fork protocol more work",
+    "group": "Erol enzyme aave fork protocol more",
+    "description": "Organize erol enzyme aave fork protocol more work and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "erol-enzyme-aave-fork-protocol-more",
+        "path": "erol-enzyme-aave-fork-protocol-more",
+        "source": "/Volumes/external/projects/erol-enzyme-aave-fork-protocol-more",
+        "kind": "source-workflow",
+        "label": "Erol enzyme aave fork protocol more work"
+      }
+    ],
+    "owner": "erol-enzyme-aave-fork-protocol-more",
+    "alternatives": [],
+    "path": "/features/erol-enzyme-aave-fork-protocol-more",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "my-aave-next-figma",
+    "title": "My aave next figma work",
+    "group": "My aave next figma",
+    "description": "Organize my aave next figma work and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "my-aave-next-figma",
+        "path": "my-aave-next-figma",
+        "source": "/Volumes/external/projects/my-aave-next-figma",
+        "kind": "source-workflow",
+        "label": "My aave next figma work"
+      }
+    ],
+    "owner": "my-aave-next-figma",
+    "alternatives": [],
+    "path": "/features/my-aave-next-figma",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "smart-contract-work",
+    "title": "Smart contract work work",
+    "group": "Smart contract work",
+    "description": "Organize smart contract work work and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "smart-contract-work",
+        "path": "smart-contract-work",
+        "source": "/Volumes/external/projects/smart-contract-work",
+        "kind": "source-workflow",
+        "label": "Smart contract work work"
+      }
+    ],
+    "owner": "smart-contract-work",
+    "alternatives": [],
+    "path": "/features/smart-contract-work",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  }
+]

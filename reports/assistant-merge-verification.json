@@ -1,0 +1,20 @@
+{
+  "id": "crypto-platform",
+  "status": "passed",
+  "previousAIEntries": 27,
+  "mergedAssistants": 5,
+  "capabilitiesMappedExactlyOnce": true,
+  "canonicalPagesAndAliases": true,
+  "combinedQuestions": true,
+  "singleProviderCall": true,
+  "exactDuplicateRemoval": true,
+  "legacyHistoryPreserved": true,
+  "followups": true,
+  "sharedRecordContext": true,
+  "assistantIsolation": true,
+  "combinedWordLimit": true,
+  "mobile": true,
+  "nonAIPopup": true,
+  "provider": "mocked",
+  "verifiedAt": "2026-09-07T20:15:54.512Z"
+}

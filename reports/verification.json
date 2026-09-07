@@ -1,0 +1,18 @@
+{
+  "id": "crypto-platform",
+  "status": "passed",
+  "features": 78,
+  "editableTables": 76,
+  "minimumRows": 15,
+  "repeatSeedCreated": 0,
+  "crud": true,
+  "persistence": true,
+  "relationships": true,
+  "revisions": true,
+  "attachments": true,
+  "exports": true,
+  "mockedAI": true,
+  "originProtection": true,
+  "sourceCalculationsExecuted": 0,
+  "verifiedAt": "2026-09-07T22:05:36.506Z"
+}
